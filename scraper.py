@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def scrape():
     url="https://www.example.com"
     response = requests.get(url)
@@ -13,8 +14,6 @@ def scrape():
     print(title)
     print(text)
     print(link)
-    
-    
 
 
 if __name__ == "__main__":
